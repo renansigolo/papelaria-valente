@@ -1,2 +1,2 @@
-# mastertech_papelaria
+# MasterTech Papelaria
 FrontPage do projeto Papelaria
