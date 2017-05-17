@@ -1,1 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
+h1, h2, h3 {
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+header {
+  display: flex;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+header ul {
+  list-style: none;
+}
