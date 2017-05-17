@@ -27,3 +27,11 @@ header img {
 header ul {
   list-style: none;
 }
+
+.escolas{
+  width: 200px;
+}
+
+footer i:hover{
+  opacity: 0.6;
+}
