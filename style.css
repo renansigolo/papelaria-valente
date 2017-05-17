@@ -1,37 +1,55 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
-h1, h2, h3 {
-  font-family: 'Fredericka the Great', cursive;
-  text-align: center;
+h1,
+h2,
+h3 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
 }
 
 h1 {
-  font-size: 42px;
+    font-size: 42px;
 }
 
 h2 {
-  font-size: 21px;
+    font-size: 21px;
 }
 
 header {
-  display: flex;
+    display: flex;
 }
 
 header img {
-  width: 100px;
-  height: 100px;
+    width: 140px;
+    height: 100px;
 }
 
 header ul {
-  list-style: none;
+    list-style: none;
 }
 
-.escolas{
-  width: 200px;
+#lista-escolar {
+    background-color: #bbb;
 }
 
-footer i:hover{
-  opacity: 0.6;
+.resultado {
+    margin: 60px 80px 0 80px;
+    background-color: aqua;
+    position: relative;
+}
+
+.resultado p {
+    text-align: center;
+}
+
+.escolas {
+    margin: 60px 80px 0 80px;
+    width: 83%;
+}
+
+footer i:hover {
+    opacity: 0.6;
 }
