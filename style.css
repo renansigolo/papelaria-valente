@@ -1,55 +1,99 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Fredericka the Great', cursive;
-    text-align: center;
+h1, h2, h3 {
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
 }
 
 h1 {
-    font-size: 42px;
+  font-size: 42px;
 }
 
 h2 {
-    font-size: 21px;
+  font-size: 21px;
+  margin-bottom: 50px;
 }
 
 header {
-    display: flex;
+  display: flex;
 }
 
 header img {
-    width: 140px;
-    height: 100px;
+  width: 140px;
+  height: 100px;
 }
 
 header ul {
-    list-style: none;
+  list-style: none;
 }
 
 #lista-escolar {
-    background-color: #bbb;
+  background-color: #bbb;
 }
 
+#lista-escolar select {
+  margin-bottom: 80px;
+}
+
+.imagens-promocoes {
+  display: flex;
+}
+
+.imagens-promocoes img {
+  margin: 0 20px;
+  border-radius: 20px;
+}
+.imagens-promocoes h2 {
+  margin-bottom: 10px;
+}
 .resultado {
-    margin: 60px 80px 0 80px;
-    background-color: aqua;
-    position: relative;
+  margin: 60px 80px 0 80px;
+  background-color: aqua;
+  position: relative;
+  display: none;
 }
 
 .resultado p {
-    text-align: center;
+  text-align: center;
 }
 
 .escolas {
-    margin: 60px 80px 0 80px;
-    width: 83%;
+  margin: 60px 80px 0 80px;
+  width: 83%;
+}
+
+#a-papelaria p {
+  margin: 0 40px;
+  padding-bottom: 20px;
+  text-align: justify;
 }
 
 footer i:hover {
-    opacity: 0.6;
+  opacity: 0.85;
+  transform: scale(1.1, 1.1);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #404190;
+  color: #fff;
+}
+
+footer p {
+  margin-left: 5px;
+}
+
+footer .fa {
+  margin: 10px;
+}
+footer a{
+  color: #fff;
+}
+
+.active {
+  display: block;
 }

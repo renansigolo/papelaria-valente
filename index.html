@@ -2,67 +2,119 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Papelaria Valente</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Papelaria Valente</title>
 </head>
 <header>
-    <img src="images/logo.png" alt="Logo Papelaria Valente">
-    <ul>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#promocoes">Promoções</a></li>
-        <li><a href="#lista-escolar">Lista Escolar</a></li>
-        <li><a href="#a-papelaria">A Papelaria</a></li>
-        <li><a href="#onde-estamos">Onde Estamos</a></li>
-        <li><a href="#contato">Contato</a></li>
-    </ul>
+  <img src="images/logo.png" alt="Logo Papelaria Valente">
+  <ul>
+    <li><a href="#top">Home</a></li>
+    <li><a href="#promocoes">Promoções</a></li>
+    <li><a href="#lista-escolar">Lista Escolar</a></li>
+    <li><a href="#a-papelaria">A Papelaria</a></li>
+    <li><a href="#onde-estamos">Onde Estamos</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
 </header>
 
 <body>
-    <section id="banner">
-        <img src="" alt="banner">
-    </section>
-    <section id="promocoes">
-        <h1>Promoções</h1>
-        <h2>Conheça aqui nossas promoções</h2>
-    </section>
-    <section id="lista-escolar">
-        <h1>Lista Escolar</h1>
-        <h2>Escolha abaixo as opções correspondentes</h2>
-        <select class="escolas" name="">
+  <section id="banner">
+    <img src="" alt="banner">
+  </section>
+  <section id="promocoes">
+    <h1>Promoções</h1>
+    <h2>Veja abaixo nossa promoções para a volta as aulas</h2>
+    <div class="imagens-promocoes">
+      <div>
+        <img src="images/materiais.png" alt="Materiais">
+        <h2>Materiais Escolares</h2>
+        <h3>A partir de: R$30,00</h3>
+      </div>
+      <div>
+        <img src="images/livros.png" alt="Livros">
+        <h2>Cadernos e Livros</h2>
+        <h3>A partir de: R$15,00</h3>
+      </div>
+      <div>
+        <img src="images/mochilas.png" alt="Mochilas">
+        <h2>Mochilas Escolares</h2>
+        <h3>A partir de: R$69,00</h3>
+      </div>
+    </div>
+  </section>
+  <section id="lista-escolar">
+    <h1>Lista Escolar</h1>
+    <h2>Escolha abaixo as opções correspondentes</h2>
+    <select class="escolas">
+            <option>Selecione aqui...</option>
             <option value="escola01">Escola 01</option>
             <option value="escola02">Escola 02</option>
             <option value="escola03">Escola 03</option>
         </select>
-        <div class="resultado">
-            <p>Resultado da busca</p>
-        </div>
+    <div class="resultado">
+      <div class="escola01">
+        <h2>A lista de materiais para a Escola 01 é: </h2>
+        <ul>
+          <li>1 Lapis</li>
+          <li>2 Borrrachas</li>
+        </ul>
+        <h2>O valor a ser pago é R$ 10,00</h2>
+      </div>
 
-    </section>
-    <section id="a-papelaria">
-        <h1>Nossa História</h1>
-    </section>
-    <section id="onde-estamos">
-        <h1>Onde Estamos</h1>
-    </section>
-    <section id="contato">
-        <h1>Contato</h1>
-        <form class="">
-            <input type="text" placeholder="Nome">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Digite sua Mensagem aqui...">
-        </form>
-    </section>
+      <div class="escola02">
+        <h2>A lista de materiais para a Escola 02 é: </h2>
+        <ul>
+          <li>1 Lapis</li>
+          <li>2 Borrrachas</li>
+        </ul>
+        <h2>O valor a ser pago é R$ 20,00</h2>
+      </div>
+      <div class="escola03">
+        <h2>A lista de materiais para a Escola 03 é: </h2>
+        <ul>
+          <li>1 Lapis</li>
+          <li>2 Borrrachas</li>
+        </ul>
+        <h2>O valor a ser pago é R$ 30,00</h2>
+      </div>
+    </div>
+    </div>
 
-    <footer>
-        <p>@Papelaria Valente | Todos os direitos reservados</p>
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-    </footer>
+  </section>
+  <section id="a-papelaria">
+    <h1>Nossa História</h1>
+    <h2>Conheça aqui um pouquinho sobre a Papelaria Valente</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a hendrerit urna. Phasellus in convallis ex. Nam eget sem dignissim, sagittis tortor vitae, vehicula eros. Donec sed viverra magna. Aliquam orci justo, aliquet eu ex non, tempor pulvinar
+      dui. Duis at nunc iaculis, faucibus libero sed, rutrum lorem. </p>
+    <p>Integer blandit eros ac felis semper, quis gravida erat aliquet. Pellentesque vestibulum, mi vel sodales finibus, sem sapien viverra eros, tempor porttitor odio risus a ante. Quisque sed fermentum sapien. Aliquam mattis pharetra lectus vitae lobortis.
+      Ut ultrices urna dignissim, suscipit justo sit amet, gravida dolor. Pellentesque rhoncus molestie leo, ut cursus massa fringilla a. Aenean ut odio iaculis, pellentesque erat venenatis, tempor tellus. Donec a nunc ut nunc condimentum imperdiet. Donec
+      et tellus erat.</p>
+  </section>
+  <section id="onde-estamos">
+    <h1>Onde Estamos</h1>
+  </section>
+  <section id="contato">
+    <h1>Contato</h1>
+    <form class="">
+      <input type="text" placeholder="Nome">
+      <input type="text" placeholder="E-mail">
+      <input type="text" placeholder="Digite sua Mensagem aqui...">
+    </form>
+  </section>
+
+  <footer>
+    <p>@Papelaria Valente | Todos os direitos reservados</p>
+    <div>
+      <a href="https://www.facebook.com/papelariavalente/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+      <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+    </div>
+
+  </footer>
 
 </body>
 
