@@ -22,7 +22,7 @@ header {
 }
 
 header img {
-  width: 100px;
+  width: 140px;
   height: 100px;
 }
 
@@ -96,4 +96,105 @@ footer a{
 
 .active {
   display: block;
+}
+
+
+
+li{
+  list-style-type: none;
+}
+
+
+#ondeEstamos {
+
+    marigin: 0 auto;
+    width: 400px;
+    position: relative;
+    padding-top: 15px;
+    padding-right: 300px;
+    padding-left: 160px;
+    color: black;
+
+}
+
+.background {
+  margin-top: 20px;
+  height: 120px;
+    margin-left: 360px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    align-content: center;
+    width: 450px;
+    position: relative;
+
+}
+
+#relogio {
+
+  height: 100px;
+  padding-left: 40px;
+  padding-top: 10px;
+  width: 100px;
+  position: absolute;
+    opacity: 100%;
+}
+
+
+
+.ondeEstamos {
+  width: 800px;
+  margin: 0 auto;
+  border: 2px "red";
+
+
+}
+
+.iframe {
+  margin: 0 auto;
+  width: 500px;
+  
+}
+
+
+.FormBackground {
+background-color: #F22E3B;
+
+width: 450px;
+height: 250px;
+margin: 0 auto;
+color: white;
+margin-bottom: 50px;
+border-radius: 20px;
+margin-bottom: 20px;
+
+}
+
+#nome {
+  width: 300px;
+  padding-right: 50px;
+}
+
+#email {
+width: 350px;
+}
+#msg {
+  text-align: inherit;
+width: 400px;
+  height: 100px;
+
+}
+
+
+
+
+.divForm
+{
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.MasterSectionContato {
+  display: flex;
+  padding-bottom: 100px;
 }
