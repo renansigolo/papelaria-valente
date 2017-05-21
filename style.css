@@ -1,3 +1,5 @@
+/* Ajustes Gerais */
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -17,6 +19,9 @@ h2 {
   margin-bottom: 50px;
 }
 
+
+/* Header */
+
 header {
   display: flex;
 }
@@ -30,13 +35,8 @@ header ul {
   list-style: none;
 }
 
-#lista-escolar {
-  background-color: #bbb;
-}
 
-#lista-escolar select {
-  margin-bottom: 80px;
-}
+/* Promoções */
 
 .imagens-promocoes {
   display: flex;
@@ -50,6 +50,17 @@ header ul {
 
 .imagens-promocoes h2 {
   margin-bottom: 10px;
+}
+
+
+/* Lista Escolar */
+
+#lista-escolar {
+  background-color: #bbb;
+}
+
+#lista-escolar select {
+  margin-bottom: 80px;
 }
 
 .resultado {
@@ -68,11 +79,113 @@ header ul {
   width: 83%;
 }
 
+.active {
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+/* A Papelaria */
+
 #a-papelaria p {
   margin: 0 40px;
   padding-bottom: 20px;
   text-align: justify;
 }
+
+
+/* Onde Estamos e Contato */
+
+.MasterSectionContato {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+
+/* Onde Estamos */
+
+#ondeEstamos {
+  marigin: 0 auto;
+  width: 400px;
+  position: relative;
+  padding-top: 15px;
+  padding-right: 300px;
+  padding-left: 160px;
+  color: black;
+}
+
+.ondeEstamos {
+  width: 800px;
+  margin: 0 auto;
+  border: 2px "red";
+}
+
+.iframe {
+  margin: 0 auto;
+  width: 500px;
+}
+
+
+/* Contato */
+
+.FormBackground {
+  background-color: #F22E3B;
+  width: 450px;
+  height: 250px;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.divForm {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#nome {
+  width: 300px;
+  padding-right: 50px;
+}
+
+#email {
+  width: 350px;
+}
+
+#msg {
+  text-align: inherit;
+  width: 400px;
+  height: 100px;
+}
+
+.background {
+  margin-top: 20px;
+  height: 120px;
+  margin-left: 360px;
+  background-color: #fafafa;
+  margin: 0 auto;
+  align-content: center;
+  width: 450px;
+  position: relative;
+}
+
+#relogio {
+  height: 100px;
+  padding-left: 40px;
+  padding-top: 10px;
+  width: 100px;
+  position: absolute;
+  opacity: 100%;
+}
+
+
+/* Footer */
 
 footer i:hover {
   opacity: 0.85;
@@ -96,91 +209,4 @@ footer .fa {
 
 footer a {
   color: #fff;
-}
-
-.active {
-  display: block;
-}
-
-li {
-  list-style-type: none;
-}
-
-#ondeEstamos {
-  marigin: 0 auto;
-  width: 400px;
-  position: relative;
-  padding-top: 15px;
-  padding-right: 300px;
-  padding-left: 160px;
-  color: black;
-}
-
-.background {
-  margin-top: 20px;
-  height: 120px;
-  margin-left: 360px;
-  background-color: #fafafa;
-  margin: 0 auto;
-  align-content: center;
-  width: 450px;
-  position: relative;
-}
-
-#relogio {
-  height: 100px;
-  padding-left: 40px;
-  padding-top: 10px;
-  width: 100px;
-  position: absolute;
-  opacity: 100%;
-}
-
-.ondeEstamos {
-  width: 800px;
-  margin: 0 auto;
-  border: 2px "red";
-}
-
-.iframe {
-  margin: 0 auto;
-  width: 500px;
-}
-
-.FormBackground {
-  background-color: #F22E3B;
-  width: 450px;
-  height: 250px;
-  margin: 0 auto;
-  color: white;
-  margin-bottom: 50px;
-  border-radius: 20px;
-  margin-bottom: 20px;
-}
-
-#nome {
-  width: 300px;
-  padding-right: 50px;
-}
-
-#email {
-  width: 350px;
-}
-
-#msg {
-  text-align: inherit;
-  width: 400px;
-  height: 100px;
-}
-
-.divForm {
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
-.MasterSectionContato {
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 100px;
 }
