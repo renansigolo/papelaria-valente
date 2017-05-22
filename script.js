@@ -47,6 +47,6 @@ function rotate() {
       thisAd = 0
     }
     document.adBanner.src = adImages[thisAd]
-    setTimeout("rotate()", 2 * 1000)
+    setTimeout("rotate()", 3000)
   }
 }
