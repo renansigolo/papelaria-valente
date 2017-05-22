@@ -3,11 +3,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  background: #606190;
 }
 
 h1, h2, h3 {
   font-family: 'Fredericka the Great', cursive;
   text-align: center;
+  color: #eee;
 }
 
 h1 {
@@ -24,8 +26,20 @@ h2 {
 
 header {
   display: flex;
+  background-color: #404190;
 }
 
+.topnav{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+a{
+  color: white;
+  font-family: 'Fredericka the Great';
+  font-size: 30px;
+  margin: 30px;
+
+}
 header img {
   width: 100px;
   height: 100px;
@@ -35,6 +49,16 @@ header ul {
   list-style: none;
 }
 
+/*Banners*/
+#banner{
+  display: flex;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 20px;
+  max-width: 1024px;
+  max-height: 360px;
+  margin-bottom: 50px;
+}
 
 /* Promoções */
 
