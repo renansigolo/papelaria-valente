@@ -3,13 +3,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background: #606190;
+  background-color: #F7F7F7;
 }
 
 h1, h2, h3 {
   font-family: 'Fredericka the Great', cursive;
   text-align: center;
-  color: #eee;
 }
 
 h1 {
@@ -26,7 +25,7 @@ h2 {
 
 header {
   display: flex;
-  background-color: #404190;
+  background-color: #1E8AC8;
 }
 
 .topnav {
@@ -88,6 +87,7 @@ header ul {
   margin: 32px;
   width: 350px;
   height: 350px;
+  box-shadow: 1px 1px 10px 5px #D7D7D7;
 }
 
 #lista-escolar img:hover {
@@ -99,6 +99,7 @@ header ul {
   background-color: #fff;
   position: relative;
   border-radius: 10px;
+  box-shadow: 1px 1px 20px #D7D7D7;
 }
 
 .hidded {
@@ -126,7 +127,7 @@ header ul {
 }
 
 .active {
-  border-width: 3px;
+  border-width: 2px;
   border-style: solid;
   border-color: #F22E3B;
 }
@@ -145,6 +146,7 @@ header ul {
   margin: 40px 80px;
   border-radius: 10px;
   padding: 20px;
+  box-shadow: 1px 1px 10px 5px #D7D7D7;
 }
 
 
@@ -248,7 +250,7 @@ footer i:hover {
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #404190;
+  background-color: #1E8AC8;
   color: #fff;
 }
 
