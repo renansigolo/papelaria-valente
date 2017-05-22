@@ -29,17 +29,18 @@ header {
   background-color: #404190;
 }
 
-.topnav{
+.topnav {
   margin-top: 25px;
   margin-left: 25px;
 }
-a{
+
+a {
   color: white;
   font-family: 'Fredericka the Great';
   font-size: 30px;
-  margin: 30px;
-
+  margin: 18px;
 }
+
 header img {
   width: 100px;
   height: 100px;
@@ -49,8 +50,10 @@ header ul {
   list-style: none;
 }
 
+
 /*Banners*/
-#banner{
+
+#banner {
   display: flex;
   margin-left: 250px;
   margin-right: 250px;
@@ -60,16 +63,17 @@ header ul {
   margin-bottom: 50px;
 }
 
+
 /* Promoções */
 
 .imagens-promocoes {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .imagens-promocoes img {
-  margin: 0 20px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .imagens-promocoes h2 {
@@ -79,39 +83,38 @@ header ul {
 
 /* Lista Escolar */
 
-#lista-escolar {
-  background-color: #bbb;
-
-}
 #lista-escolar img {
   border-radius: 100%;
   margin: 32px;
   width: 350px;
   height: 350px;
 }
+
 #lista-escolar img:hover {
-  transform: scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
 }
 
 .resultado {
   margin: 40px 80px;
-  background-color: #aaa;
+  background-color: #fff;
   position: relative;
-  border-radius: 20px;
-  padding: 10px 0;
+  border-radius: 10px;
 }
-.hidded{
+
+.hidded {
   display: none;
 }
 
 .resultado p {
   text-align: center;
 }
-.imagens-escolas{
+
+.imagens-escolas {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 .escolas {
   margin: 60px 80px 0 80px;
   width: 83%;
@@ -136,6 +139,13 @@ li {
   text-align: justify;
 }
 
+.fundo-do-texto {
+  background-color: #fff;
+  margin: 40px 80px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 
 /* Onde Estamos e Contato */
 
@@ -154,7 +164,7 @@ li {
   position: relative;
   padding-top: 15px;
   padding-right: 300px;
-  padding-left: 160px;
+  padding-left: 150px;
   color: black;
 }
 
@@ -179,7 +189,7 @@ li {
   margin: 0 auto;
   color: white;
   margin-bottom: 50px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 20px;
 }
 
@@ -213,6 +223,7 @@ li {
   align-content: center;
   width: 450px;
   position: relative;
+  border-radius: 10px;
 }
 
 #relogio {
@@ -249,4 +260,6 @@ footer .fa {
 
 footer a {
   color: #fff;
+  font-size: 16px;
+  margin: 10px;
 }
