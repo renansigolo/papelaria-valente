@@ -7,7 +7,6 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Fredericka the Great', cursive;
   text-align: center;
 }
 
@@ -25,19 +24,18 @@ h2 {
 
 header {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: #1E8AC8;
-}
-
-.topnav {
-  margin-top: 25px;
-  margin-left: 25px;
 }
 
 a {
   color: white;
-  font-family: 'Fredericka the Great';
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: 200;
   font-size: 30px;
   margin: 18px;
+  text-decoration: none;
 }
 
 header img {
@@ -165,7 +163,7 @@ header ul {
   width: 400px;
   position: relative;
   padding: 15px 300px 0 90px;
-  color: black;
+  color: white;
 }
 
 .ondeEstamos {
@@ -214,7 +212,7 @@ header ul {
 
 .background {
   height: 120px;
-  background-color: #fafafa;
+  background-color: #1E8AC8;
   margin: 0 auto;
   align-content: center;
   width: 450px;
