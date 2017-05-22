@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var imagensEscolas = document.querySelectorAll('.imagensEscolas');
 var bandeirantes = document.querySelector('#bandeirantes');
 var objetivo = document.querySelector('#objetivo');
@@ -20,16 +19,6 @@ function adicionarClasse() {
 bandeirantes.addEventListener('click', adicionarClasse);
 objetivo.addEventListener('click', adicionarClasse);
 marista.addEventListener('click', adicionarClasse);
-=======
-// var seletor = document.querySelector('.escolas');
-// var paragrafo = document.querySelector('.resultado p');
-//
-// console.log(seletor);
-// console.log(paragrafo);
-//
-//
-//
-// seletor.addEventListener('change', calcularOrcamento);
 
 adImages = ["images/banner1.jpg","images/banner2.jpg"]
 thisAd = 0
@@ -47,4 +36,3 @@ function rotate() {
   }
 
 }
->>>>>>> 4d10515120b91dcc793a9652e18f69a4b3368cd0
