@@ -57,30 +57,46 @@ header ul {
 
 #lista-escolar {
   background-color: #bbb;
-}
 
-#lista-escolar select {
-  margin-bottom: 80px;
+}
+#lista-escolar img {
+  border-radius: 100%;
+  margin: 32px;
+  width: 350px;
+  height: 350px;
+}
+#lista-escolar img:hover {
+  transform: scale(1.1,1.1);
 }
 
 .resultado {
-  margin: 60px 80px 0 80px;
-  background-color: aqua;
+  margin: 40px 80px;
+  background-color: #aaa;
   position: relative;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+.hidded{
   display: none;
 }
 
 .resultado p {
   text-align: center;
 }
-
+.imagens-escolas{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .escolas {
   margin: 60px 80px 0 80px;
   width: 83%;
 }
 
 .active {
-  display: block;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #F22E3B;
 }
 
 li {
