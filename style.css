@@ -58,7 +58,8 @@ header ul {
   max-width: 1024px;
   max-height: 360px;
 }
-.banners img{
+
+.banners img {
   width: 100%;
 }
 
@@ -104,7 +105,7 @@ header ul {
   display: none;
 }
 
-.resultado p, h2, {
+.resultado p, h2 {
   text-align: center;
 }
 
@@ -113,7 +114,8 @@ header ul {
   padding: 20px;
   margin-bottom: 0;
 }
-.resultado ul{
+
+.resultado ul {
   padding: 0 25%;
 }
 
@@ -128,6 +130,7 @@ header ul {
   border-style: solid;
   border-color: #F22E3B;
 }
+
 
 /* A Papelaria */
 
@@ -157,19 +160,14 @@ header ul {
 /* Onde Estamos */
 
 #ondeEstamos {
-  margin: 20px auto;
   width: 400px;
   position: relative;
-  padding-top: 15px;
-  padding-right: 300px;
-  padding-left: 90px;
+  padding: 15px 300px 0 90px;
   color: black;
 }
 
 .ondeEstamos {
-  width: 800px;
-  margin: 0 auto;
-  border: 2px "red";
+  width: 700px;
 }
 
 .iframe {
@@ -213,9 +211,7 @@ header ul {
 }
 
 .background {
-  margin-top: 20px;
   height: 120px;
-  margin-left: 360px;
   background-color: #fafafa;
   margin: 0 auto;
   align-content: center;
@@ -223,10 +219,12 @@ header ul {
   position: relative;
   border-radius: 10px;
 }
-.background ul{
+
+.background ul {
   list-style: none;
 }
-.background li{
+
+.background li {
   padding-left: 30px;
   text-align: center;
 }
@@ -237,7 +235,6 @@ header ul {
   padding-top: 10px;
   width: 100px;
   position: absolute;
-  opacity: 100%;
 }
 
 
