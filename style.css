@@ -23,7 +23,7 @@ h2 {
 /* Header */
 
 header {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
 }
@@ -288,18 +288,54 @@ footer a {
 
 /*Media Query para Mobiles*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .menu-button {
     float: right;
+  }
+  /*General*/
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  p{
+    font-size: 16px;
+  }
+  img{
+    width: 310px;
+    height: 310px;
+  }
+  /*Header*/
+  header img {
+    display: none;
+  }
+  .imagens-promocoes img {
+    border-radius: 10px;
+  }
+  #lista-escolar img{
+    width: 310px;
+    height: 310px;
+  }
+  .resultado{
+    margin: 40px 15px;
+  }
+  .fundo-do-texto{
+    margin: 40px 15px;
   }
   .ondeEstamos {
     display: none;
   }
   a {
-    font-size: 16px;
+    font-size: 18px;
+    margin: 3px;
   }
   .topnav {
-    flex-wrap: nowrap;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 200px;
   }
   .MasterSectionContato {
     display: flex;
@@ -311,9 +347,10 @@ footer a {
 
 /*Media Query para Tablets*/
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
   a {
-    font-size: 21px;
+    font-size: 18px;
+    margin: 0;
   }
   .topnav {
     height: 60px;
