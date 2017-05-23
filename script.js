@@ -11,9 +11,7 @@ function adicionarClasse() {
     objetivo.classList.remove('active');
     marista.classList.remove('active');
     bandeirantes.classList.remove('active');
-
   }
-
   this.classList.add('active');
 
   if (bandeirantes.classList.contains('active')) {
@@ -36,17 +34,17 @@ objetivo.addEventListener('click', adicionarClasse);
 marista.addEventListener('click', adicionarClasse);
 
 // Slider do banner
-adImages = ["images/banner1.jpg", "images/banner2.jpg"]
-thisAd = 0
-imgCt = adImages.length
+adImages = ["images/banner1.jpg", "images/banner2.jpg"];
+thisAd = 0;
+imgCt = adImages.length;
 
 function rotate() {
   if (document.images) {
-    thisAd++
+    thisAd++;
     if (thisAd == imgCt) {
-      thisAd = 0
+      thisAd = 0;
     }
-    document.adBanner.src = adImages[thisAd]
-    setTimeout("rotate()", 3000)
+    document.adBanner.src = adImages[thisAd];
+    setTimeout("rotate()", 3000);
   }
 }
