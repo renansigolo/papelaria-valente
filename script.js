@@ -34,7 +34,7 @@ objetivo.addEventListener('click', adicionarClasse);
 marista.addEventListener('click', adicionarClasse);
 
 // Slider do banner
-adImages = ["images/banner1.jpg", "images/banner2.jpg"];
+adImages = ["images/banner1.jpg", "images/banner2.jpg", "images/banner3.jpg"];
 thisAd = 0;
 imgCt = adImages.length;
 
