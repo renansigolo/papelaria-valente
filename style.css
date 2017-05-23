@@ -21,12 +21,27 @@ h2 {
 
 
 /* Header */
+.menu-button{
+  display: none;
+}
 
-header {
+header img{
+  float: left;
+  background-color: #1E8AC8;
+  width: 100px;
+  height: 100px;
+}
+
+header ul {
+  list-style: none;
+}
+
+.topnav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #1E8AC8;
+  height: 100px;
 }
 
 a {
@@ -37,16 +52,6 @@ a {
   margin: 18px;
   text-decoration: none;
 }
-
-header img {
-  width: 100px;
-  height: 100px;
-}
-
-header ul {
-  list-style: none;
-}
-
 
 /*Banners*/
 
@@ -189,17 +194,25 @@ header ul {
 
 #nome {
   width: 300px;
+  height: 20px;
   padding-right: 50px;
+  border-radius: 2px;
+  border-style: none;
 }
 
 #email {
   width: 350px;
+  height: 20px;
+  border-radius: 2px;
+  border-style: none;
 }
 
 #msg {
   text-align: inherit;
   width: 400px;
   height: 100px;
+  border-radius: 2px;
+  border-style: none;
 }
 
 .background {
@@ -232,6 +245,12 @@ header ul {
   padding: 10px 0 0 30px;
   width: 100px;
   position: absolute;
+}
+#submit{
+  border-style: none;
+    border-radius: 2px;
+    background-color: white;
+    height: 20px;
 }
 
 
