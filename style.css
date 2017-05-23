@@ -23,7 +23,7 @@ h2 {
 /* Header */
 
 header {
-  position: relative;
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -168,6 +168,7 @@ a {
 .MasterSectionContato {
   display: flex;
   flex-wrap: wrap;
+  align-content: space-around;
   padding-bottom: 100px;
 }
 
@@ -309,6 +310,9 @@ footer a {
     height: 310px;
   }
   /*Header*/
+  header{
+    position: relative;
+  }
   header img {
     display: none;
   }
@@ -358,6 +362,7 @@ footer a {
   .ondeEstamos {
     display: none;
   }
+
   header img {
     width: 60px;
     height: 60px;
