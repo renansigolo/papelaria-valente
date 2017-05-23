@@ -21,11 +21,13 @@ h2 {
 
 
 /* Header */
-.menu-button{
+
+.menu-button {
   display: none;
+  float: right;
 }
 
-header img{
+header img {
   float: left;
   background-color: #1E8AC8;
   width: 100px;
@@ -38,6 +40,7 @@ header ul {
 
 .topnav {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   background-color: #1E8AC8;
@@ -52,6 +55,7 @@ a {
   margin: 18px;
   text-decoration: none;
 }
+
 
 /*Banners*/
 
@@ -233,7 +237,8 @@ a {
   padding-left: 30px;
   text-align: center;
 }
-.horario{
+
+.horario {
   width: 400px;
   position: relative;
   padding: 15px 300px 0 90px;
@@ -246,11 +251,12 @@ a {
   width: 100px;
   position: absolute;
 }
-#submit{
+
+#submit {
   border-style: none;
-    border-radius: 2px;
-    background-color: white;
-    height: 20px;
+  border-radius: 2px;
+  background-color: white;
+  height: 20px;
 }
 
 
@@ -280,4 +286,13 @@ footer a {
   color: #fff;
   font-size: 16px;
   margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+    float: right;
+  }
+  .ondeEstamos {
+    display: none;
+  }
 }
