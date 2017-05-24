@@ -2,7 +2,7 @@
 var enviar = document.querySelector('#submit');
 
 function alertarEnvio() {
-  alert('Sua mensagem foi enviada com sucesso, Obrigado !');
+    alert('Sua mensagem foi enviada com sucesso, Obrigado !');
 }
 
 enviar.addEventListener('click', alertarEnvio);
