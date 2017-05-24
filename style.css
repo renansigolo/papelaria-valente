@@ -1,375 +1,376 @@
 /* Ajustes Gerais */
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  background-color: #F7F7F7;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #F7F7F7;
 }
 
-h1, h2, h3 {
-  text-align: center;
+h1,
+h2,
+h3 {
+    text-align: center;
 }
 
 h1 {
-  font-size: 42px;
+    font-size: 42px;
 }
 
 h2 {
-  font-size: 21px;
-  margin-bottom: 50px;
+    font-size: 21px;
+    margin-bottom: 50px;
 }
 
 
 /* Header */
 
 header {
-  position: fixed;
-  top: 0;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .menu-button {
-  display: none;
-  float: right;
+    display: none;
+    float: right;
 }
 
 header img {
-  float: left;
-  background-color: #1E8AC8;
-  width: 80px;
-  height: 80px;
+    float: left;
+    background-color: #1E8AC8;
+    width: 80px;
+    height: 80px;
 }
 
 header ul {
-  list-style: none;
+    list-style: none;
 }
 
 .topnav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #1E8AC8;
-  height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E8AC8;
+    height: 80px;
 }
 
 a {
-  color: white;
-  font-weight: 200;
-  font-size: 30px;
-  margin: 18px;
-  text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    margin: 18px;
+    text-decoration: none;
 }
 
 
 /*Banners*/
 
 #banner {
-  display: flex;
-  max-width: 1024px;
-  max-height: 360px;
+    display: flex;
+    max-width: 1024px;
+    max-height: 360px;
 }
 
 .banners img {
-  width: 100%;
+    width: 100%;
 }
 
 
 /* Promoções */
 
 .imagens-promocoes {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .imagens-promocoes img {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 .imagens-promocoes h2 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
 /* Lista Escolar */
 
 #lista-escolar img {
-  border-radius: 100%;
-  margin: 32px;
-  width: 350px;
-  height: 350px;
-  box-shadow: 1px 1px 10px 5px #D7D7D7;
+    border-radius: 100%;
+    margin: 32px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 1px 1px 10px 5px #D7D7D7;
 }
 
 #lista-escolar img:hover {
-  transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
 }
 
 .resultado {
-  margin: 40px 15%;
-  background-color: #fff;
-  position: relative;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px #D7D7D7;
-  z-index: -1;
+    margin: 40px 15%;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #D7D7D7;
+    z-index: -1;
 }
 
 .hidded {
-  display: none;
+    display: none;
 }
 
-.resultado p, h2 {
-  text-align: center;
+.resultado p,
+h2 {
+    text-align: center;
 }
 
 .resultado h2 {
-  color: black;
-  padding: 20px;
-  margin-bottom: 0;
+    color: black;
+    padding: 20px;
+    margin-bottom: 0;
 }
 
 .resultado ul {
-  padding: 0 25%;
+    padding: 0 25%;
 }
 
 .imagens-escolas {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .active {
-  border-width: 2px;
-  border-style: solid;
-  border-color: #F22E3B;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #F22E3B;
 }
 
 
 /* A Papelaria */
 
 #a-papelaria p {
-  margin: 0 40px;
-  padding-bottom: 20px;
-  text-align: justify;
+    margin: 0 40px;
+    padding-bottom: 20px;
+    text-align: justify;
 }
 
 .fundo-do-texto {
-  background-color: #fff;
-  margin: 40px 80px;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 1px 1px 10px 5px #D7D7D7;
+    background-color: #fff;
+    margin: 40px 80px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 5px #D7D7D7;
 }
 
 
 /* Onde Estamos e Contato */
 
 .MasterSectionContato {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
-  padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-bottom: 100px;
 }
 
 
 /* Onde Estamos */
 
 .ondeEstamos {
-  width: 700px;
+    width: 700px;
 }
 
 .iframe {
-  margin: 0 auto;
-  width: 500px;
+    margin: 0 auto;
+    width: 500px;
 }
 
 
 /* Contato */
 
 .FormBackground {
-  background-color: #F22E3B;
-  width: 450px;
-  height: 250px;
-  margin: 0 auto;
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 20px;
+    background-color: #F22E3B;
+    width: 450px;
+    height: 250px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .divForm {
-  margin: 0 auto;
-  padding: 20px 0 0 20px;
+    margin: 0 auto;
+    padding: 20px 0 0 20px;
 }
 
 .divForm input {
-  width: 96%;
-  height: 20px;
-  border-radius: 2px;
-  border-style: none;
+    width: 96%;
+    height: 20px;
+    border-radius: 2px;
+    border-style: none;
 }
 
 .divForm textarea {
-  width: 96%;
-  height: 20px;
-  border-radius: 2px;
-  border-style: none;
-  height: 70px;
+    width: 96%;
+    height: 20px;
+    border-radius: 2px;
+    border-style: none;
+    height: 70px;
 }
 
 .background {
-  height: 120px;
-  background-color: #1E8AC8;
-  margin: 0 auto;
-  align-content: center;
-  width: 450px;
-  position: relative;
-  border-radius: 10px;
+    height: 120px;
+    background-color: #1E8AC8;
+    margin: 0 auto;
+    align-content: center;
+    width: 450px;
+    position: relative;
+    border-radius: 10px;
 }
 
 .background ul {
-  list-style: none;
+    list-style: none;
 }
 
 .background li {
-  padding-left: 30px;
-  text-align: center;
+    padding-left: 30px;
+    text-align: center;
 }
 
 .horario {
-  width: 400px;
-  position: relative;
-  padding: 15px 300px 0 90px;
-  color: white;
+    width: 400px;
+    position: relative;
+    padding: 15px 300px 0 90px;
+    color: white;
 }
 
 #relogio {
-  height: 100px;
-  padding: 10px 0 0 30px;
-  width: 100px;
-  position: absolute;
+    height: 100px;
+    padding: 10px 0 0 30px;
+    width: 100px;
+    position: absolute;
 }
 
 #submit {
-  border-style: none;
-  border-radius: 2px;
-  background-color: white;
-  height: 20px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: white;
+    height: 20px;
 }
 
 
 /* Footer */
 
 footer i:hover {
-  opacity: 0.85;
-  transform: scale(1.1, 1.1);
+    opacity: 0.85;
+    transform: scale(1.1, 1.1);
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #1E8AC8;
-  color: #fff;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E8AC8;
+    color: #fff;
 }
 
 footer p {
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
 footer .fa {
-  margin: 10px;
+    margin: 10px;
 }
 
 footer a {
-  color: #fff;
-  font-size: 16px;
-  margin: 10px;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
 }
 
 
 /*Media Query para Mobiles*/
 
 @media only screen and (max-width: 600px) {
-  .menu-button {
-    float: right;
-  }
-  /*General*/
-  h1 {
-    font-size: 22px;
-  }
-
-  h2 {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-  p{
-    font-size: 16px;
-  }
-  img{
-    width: 310px;
-    height: 310px;
-  }
-  /*Header*/
-  header{
-    position: relative;
-  }
-  header img {
-    display: none;
-  }
-  .imagens-promocoes img {
-    border-radius: 10px;
-  }
-  #lista-escolar img{
-    width: 310px;
-    height: 310px;
-  }
-  .resultado{
-    margin: 40px 15px;
-  }
-  .fundo-do-texto{
-    margin: 40px 15px;
-  }
-  .ondeEstamos {
-    display: none;
-  }
-  a {
-    font-size: 18px;
-    margin: 3px;
-  }
-  .topnav {
-    display: flex;
-    flex-flow: column nowrap;
-    height: 200px;
-  }
-  .MasterSectionContato {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-  }
+    .menu-button {
+        float: right;
+    }
+    /*General*/
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        width: 310px;
+        height: 310px;
+    }
+    /*Header*/
+    header {
+        position: relative;
+    }
+    header img {
+        display: none;
+    }
+    .imagens-promocoes img {
+        border-radius: 10px;
+    }
+    #lista-escolar img {
+        width: 310px;
+        height: 310px;
+    }
+    .resultado {
+        margin: 40px 15px;
+    }
+    .fundo-do-texto {
+        margin: 40px 15px;
+    }
+    .ondeEstamos {
+        display: none;
+    }
+    a {
+        font-size: 18px;
+        margin: 3px;
+    }
+    .topnav {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 200px;
+    }
+    .MasterSectionContato {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
 }
 
 
 /*Media Query para Tablets*/
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  a {
-    font-size: 18px;
-    margin: 0;
-  }
-  .topnav {
-    height: 60px;
-  }
-  .ondeEstamos {
-    display: none;
-  }
-
-  header img {
-    width: 60px;
-    height: 60px;
-  }
-  .MasterSectionContato {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-  }
+    a {
+        font-size: 18px;
+        margin: 0;
+    }
+    .topnav {
+        height: 60px;
+    }
+    .ondeEstamos {
+        display: none;
+    }
+    header img {
+        width: 60px;
+        height: 60px;
+    }
+    .MasterSectionContato {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
 }
