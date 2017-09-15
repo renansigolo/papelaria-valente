@@ -6,9 +6,7 @@ body {
   background-color: #f7f7f7;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   text-align: center;
 }
 
@@ -20,6 +18,7 @@ h2 {
   font-size: 21px;
   margin-bottom: 50px;
 }
+
 
 /* Header */
 
@@ -36,9 +35,9 @@ header {
 
 header img {
   float: left;
-  background-color: #1e8ac8;
   width: 80px;
   height: 80px;
+  background-color: #1e8ac8;
 }
 
 header ul {
@@ -47,20 +46,21 @@ header ul {
 
 .topnav {
   display: flex;
+  align-items: center;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: center;
-  background-color: #1e8ac8;
   height: 80px;
+  background-color: #1e8ac8;
 }
 
 a {
-  color: white;
-  font-weight: 200;
   font-size: 30px;
+  font-weight: 200;
   margin: 18px;
   text-decoration: none;
+  color: white;
 }
+
 
 /* Banners */
 
@@ -74,12 +74,13 @@ a {
   width: 100%;
 }
 
+
 /* Promoções */
 
 .imagens-promocoes {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .imagens-promocoes img {
@@ -90,13 +91,14 @@ a {
   margin-bottom: 10px;
 }
 
+
 /* Lista Escolar */
 
 #lista-escolar img {
-  border-radius: 100%;
-  margin: 32px;
   width: 350px;
   height: 350px;
+  margin: 32px;
+  border-radius: 100%;
   box-shadow: 1px 1px 10px 5px #d7d7d7;
 }
 
@@ -105,27 +107,26 @@ a {
 }
 
 .resultado {
-  margin: 40px 15%;
-  background-color: #fff;
   position: relative;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px #d7d7d7;
   z-index: -1;
+  margin: 40px 15%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 20px #d7d7d7;
 }
 
 .hidded {
   display: none;
 }
 
-.resultado p,
-h2 {
+.resultado p, h2 {
   text-align: center;
 }
 
 .resultado h2 {
-  color: black;
-  padding: 20px;
   margin-bottom: 0;
+  padding: 20px;
+  color: black;
 }
 
 .resultado ul {
@@ -134,8 +135,8 @@ h2 {
 
 .imagens-escolas {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .active {
@@ -143,6 +144,7 @@ h2 {
   border-style: solid;
   border-color: #f22e3b;
 }
+
 
 /* A Papelaria */
 
@@ -153,21 +155,23 @@ h2 {
 }
 
 .fundo-do-texto {
-  background-color: #fff;
   margin: 40px 80px;
-  border-radius: 10px;
   padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
   box-shadow: 1px 1px 10px 5px #d7d7d7;
 }
+
 
 /* Onde Estamos e Contato */
 
 .MasterSectionContato {
   display: flex;
-  flex-wrap: wrap;
   align-content: space-around;
+  flex-wrap: wrap;
   padding-bottom: 100px;
 }
+
 
 /* Onde Estamos */
 
@@ -176,20 +180,20 @@ h2 {
 }
 
 .iframe {
-  margin: 0 auto;
   width: 500px;
+  margin: 0 auto;
 }
+
 
 /* Contato */
 
 .FormBackground {
-  background-color: #f22e3b;
   width: 450px;
   height: 250px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   color: white;
   border-radius: 10px;
-  margin-bottom: 20px;
+  background-color: #f22e3b;
 }
 
 .divForm {
@@ -200,25 +204,25 @@ h2 {
 .divForm input {
   width: 96%;
   height: 20px;
-  border-radius: 2px;
   border-style: none;
+  border-radius: 2px;
 }
 
 .divForm textarea {
   width: 96%;
   height: 20px;
-  border-radius: 2px;
   border-style: none;
+  border-radius: 2px;
 }
 
 .background {
-  height: 120px;
-  background-color: #1e8ac8;
-  margin: 0 auto;
+  position: relative;
   align-content: center;
   width: 450px;
-  position: relative;
+  height: 120px;
+  margin: 0 auto;
   border-radius: 10px;
+  background-color: #1e8ac8;
 }
 
 .background ul {
@@ -231,38 +235,39 @@ h2 {
 }
 
 .horario {
-  width: 400px;
   position: relative;
+  width: 400px;
   padding: 15px 300px 0 90px;
   color: white;
 }
 
 #relogio {
+  position: absolute;
+  width: 100px;
   height: 100px;
   padding: 10px 0 0 30px;
-  width: 100px;
-  position: absolute;
 }
 
 #submit {
+  height: 20px;
   border-style: none;
   border-radius: 2px;
   background-color: white;
-  height: 20px;
 }
+
 
 /* Footer */
 
 footer i:hover {
-  opacity: 0.85;
   transform: scale(1.1, 1.1);
+  opacity: 0.85;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #1e8ac8;
   color: #fff;
+  background-color: #1e8ac8;
 }
 
 footer p {
@@ -274,10 +279,11 @@ footer .fa {
 }
 
 footer a {
-  color: #fff;
   font-size: 16px;
   margin: 10px;
+  color: #fff;
 }
+
 
 /* Media Query para Mobiles */
 
@@ -285,75 +291,60 @@ footer a {
   .menu-button {
     float: right;
   }
-
   /* General */
-
   h1 {
     font-size: 22px;
   }
-
   h2 {
     font-size: 20px;
     margin-bottom: 30px;
   }
-
   p {
     font-size: 16px;
   }
-
   img {
     width: 310px;
     height: 310px;
   }
-
   /* Header */
-
   header {
     position: relative;
   }
-
   header img {
     display: none;
   }
-
   .imagens-promocoes img {
     border-radius: 10px;
   }
-
   #lista-escolar img {
     width: 310px;
     height: 310px;
   }
-
   .resultado {
     margin: 40px 15px;
   }
-
   .fundo-do-texto {
     margin: 40px 15px;
   }
-
   .ondeEstamos {
     display: none;
   }
-
   a {
     font-size: 18px;
     margin: 3px;
   }
-
   .topnav {
     display: flex;
     flex-flow: column nowrap;
     height: 200px;
   }
-
   .MasterSectionContato {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: space-around;
   }
 }
+
 
 /* Media Query para Tablets */
 
@@ -362,23 +353,19 @@ footer a {
     font-size: 18px;
     margin: 0;
   }
-
   .topnav {
     height: 60px;
   }
-
   .ondeEstamos {
     display: none;
   }
-
   header img {
     width: 60px;
     height: 60px;
   }
-
   .MasterSectionContato {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: space-around;
   }
 }
